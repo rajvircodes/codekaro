@@ -1,0 +1,5 @@
+node_modules
+dist
+.evn
+coverage
+.DS_Store
