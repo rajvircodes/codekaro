@@ -1,5 +1,18 @@
+# Dependencies
 node_modules
+
+# Build
 dist
-.evn
-coverage
+
+# Environment files
+**/.env
+
+# Keep example env files
+!**/.env.example
+
+# Logs
+*.log
+
+# OS
 .DS_Store
+Thumbs.db
