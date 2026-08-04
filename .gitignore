@@ -1,5 +1,11 @@
-node_modules
-dist
-.evn
-coverage
-.DS_Store
+# Dependencies
+**/node_modules
+
+# Build
+**/dist
+
+# Environment files
+**/.env
+
+# Allow example env files
+!**/.env.example
