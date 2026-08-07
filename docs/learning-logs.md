@@ -29,4 +29,20 @@ Set up the project foundation.
 
 ## feature/auth-foundation
 
-🚧 In Progress...
+### Objective
+
+Prepare the authentication layer by setting up the database foundation.
+
+### Completed
+
+- Installed Prisma ORM
+- Connected PostgreSQL
+- Designed the User model
+- Created the first migration
+- Generated Prisma Client
+
+### Learned
+
+- Prisma workflow
+- Database migrations
+- Schema-first development
