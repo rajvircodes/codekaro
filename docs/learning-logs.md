@@ -46,3 +46,37 @@ Prepare the authentication layer by setting up the database foundation.
 - Prisma workflow
 - Database migrations
 - Schema-first development
+
+# Auth Register
+
+## Objective
+
+Allow new users to create an account securely.
+
+## Endpoint
+
+POST /api/v1/auth/register
+
+## Required Fields
+
+- fullName
+- username
+- email
+- password
+
+## Flow
+
+Request
+→ Validation
+→ Controller
+→ Service
+→ Duplicate check
+→ Password hashing
+→ Database
+→ Safe response
+
+## Security
+
+- Passwords are hashed before storage.
+- Password is never returned in the response.
+- Email and username must be unique.
